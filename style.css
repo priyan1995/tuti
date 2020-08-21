@@ -83,11 +83,39 @@ body{
 
 .demo-sec .row video{
     border-radius: 30px;
+    display: none;
+    transition: 0.5s;
 }
 
 :focus {
     outline: -webkit-focus-ring-color auto 0px;
 }
+
+.demo-sec .triangle-right {
+    width: 0;
+    height: 0;
+    border-top: 50px solid transparent;
+    border-left: 85px solid #5c29ff;
+    border-bottom: 50px solid transparent;
+    display:inline-block;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* ===== media query ==== */
 @media (min-width:768px){
