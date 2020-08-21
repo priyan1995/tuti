@@ -4,6 +4,7 @@ body{
     color:#3e3e3ef5;
 }
 
+
 *{
     scroll-behavior: smooth;
 }
@@ -47,11 +48,17 @@ body{
 
 .pd-main-slider .main-slider .owl-item .pd-slid-cont h4{
     font-size: 55px;
-    font-weight: 400;
+    font-weight: 100;
     margin: 0;
     color: #3e3e3ef5;
     text-transform: uppercase;
-    line-height: 55px;
+    line-height: 75px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.pd-main-slider .main-slider .owl-item .pd-slid-cont h4 span {
+    font-weight: 900;
+    color: #864dce;
 }
 
 .pd-main-slider .main-slider .owl-item .pd-slid-cont p{
@@ -88,11 +95,13 @@ body{
 }
 
 .demo-sec .pd-play .pd-play-border {
+    width: 200px;
     display: inline-block;
     border: 2px solid #5c29ff;
-    padding: 30px 26px 27px 49px;
+    padding: 70px 26px 27px 40px;
     border-radius: 100%;
     cursor: pointer;
+    height: 200px;
 }
 
 
@@ -103,15 +112,80 @@ body{
 .demo-sec .triangle-right {
     width: 0;
     height: 0;
-    border-top: 50px solid transparent;
-    border-left: 85px solid #5c29ff;
-    border-bottom: 50px solid transparent;
-    display:inline-block;
-  }
+    border-top: 25px solid transparent;
+    border-left: 50px solid #5c29ff;
+    border-bottom: 25px solid transparent;
+    display: inline-block;
+}
+
+.pdbmodel{
+    padding:5% 0;
+    background: #80808017;
+}
+
+.pdbmodel .pd-card{
+    margin: 25px; 
+    box-shadow: 0px 4px 27px -18px #5c29ff7a  
+}
+
+.pdbmodel .pd-card .content-card-top{
+    padding:15px 23px;
+    background: white;
+}
+
+.pdbmodel .pd-card h6{
+    margin-bottom: 5px;
+    font-weight: 100;
+}
+
+.pdbmodel .pd-card h4{
+    margin-bottom: 10px;
+}
+
+.pdbmodel .pd-card a{
+    margin-bottom: 15px;
+    display: block;
+    font-size: 20px;
+    background: #864dce;
+    padding: 10px 5px 8px;
+    color: white;
+    border-radius: 6px;
+}
+
+.pdbmodel .pd-card a:hover{
+    text-decoration: none;
+}
+
+.pdbmodel .pd-card p{
+    font-weight: 100;
+    font-size:12px;
+}
+
+.pdbmodel .pd-card input{
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    border: 1px solid #80808052;
+    padding: 10px 5px;
+    border-radius: 6px;
+}
 
 
+.owl-theme .owl-dots .owl-dot span{
+    width: 20px !important;
+    height: 5px !important;
+    background: #864dce8c !important;
+    border-radius: 0 !important;
+}
 
+.owl-theme .owl-dots .owl-dot.active span{
+    background: #864dce !important;
+}
 
+button:focus{
+    outline: none;
+}
 
 
 
