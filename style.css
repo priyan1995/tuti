@@ -3,8 +3,6 @@ body{
     font-family: 'Baloo Tamma 2', cursive;
     color:#3e3e3ef5;
 }
-
-
 *{
     scroll-behavior: smooth;
 }
@@ -83,7 +81,24 @@ body{
 
 .demo-sec{
     padding:5% 0;
+    position: relative;
 }
+
+.demo-sec::before{
+    content: '';
+    position: absolute;
+    left: -115px;
+    bottom: -160px;
+    width: 295px;
+    height: 315px;
+    background: url(img/video-sec2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    filter: opacity(0.6);
+}
+
+
 .demo-sec .row{
     align-items: center;
 }
@@ -121,6 +136,21 @@ body{
 .pdbmodel{
     padding:5% 0;
     background: #80808017;
+    position: relative;
+    overflow: hidden;
+}
+
+.pdbmodel::after{
+    content: '';
+    position: absolute;
+    right: -30px;
+    bottom: -25px;
+    width: 190px;
+    height: 275px;
+    background: url(img/bmodel.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
 }
 
 .pdbmodel .pd-card{
@@ -245,9 +275,51 @@ button:focus{
     background-size: contain;
 }
 
+.pd-cont-us .pd-cont-form-card::before{
+    content: '';
+    position: absolute;
+    left: -116px;
+    bottom: -79px;
+    width: 160px;
+    height: 300px;
+    background: url(img/cont.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
 .pd-footer{
     padding: 8% 0 1%;
+    position: relative;
+    overflow: hidden;
 }
+
+.pd-footer::before{
+    content: '';
+    position: absolute;
+    left: 3%;
+    bottom: -79px;
+    width: 160px;
+    height: 300px;
+    background: url(img/foot-1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.pd-footer::after{
+    content: '';
+    position: absolute;
+    right: 10%;
+    bottom: 0%;
+    width: 200px;
+    height: 300px;
+    background: url(img/foot-2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
 
 .pd-footer .footer-bottom-logo{
     text-align: center;
@@ -307,6 +379,30 @@ button:focus{
     z-index: 9999;
     background: white;
 }
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(0 0 0 / 72%);
+    font-weight: 500;
+}
+
+.pd-vid-play-crd{
+    position: relative;
+}
+
+.pd-vid-play-crd::after{
+    content: '';
+    position: absolute;
+    right: -100px;
+    bottom: -25px;
+    width: 190px;
+    height: 275px;
+    background: url(img/video-back.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+
 
 
 
