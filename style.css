@@ -74,6 +74,57 @@ body{
     align-items: center;
 }
 
+.demo-sec{
+    padding:5% 0;
+}
+.demo-sec .row{
+    align-items: center;
+}
+
+.demo-sec .row video{
+    border-radius: 30px;
+    display: none;
+    transition: 0.5s;
+}
+
+.demo-sec .pd-play .pd-play-border {
+    display: inline-block;
+    border: 2px solid #5c29ff;
+    padding: 30px 26px 27px 49px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+
+:focus {
+    outline: -webkit-focus-ring-color auto 0px;
+}
+
+.demo-sec .triangle-right {
+    width: 0;
+    height: 0;
+    border-top: 50px solid transparent;
+    border-left: 85px solid #5c29ff;
+    border-bottom: 50px solid transparent;
+    display:inline-block;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* ===== media query ==== */
 @media (min-width:768px){

@@ -19,4 +19,9 @@ $('.main-slider').owlCarousel({
     }
 });
 
-})
+});
+
+function myFunction(){
+    document.getElementById("pd_demoVideo").style.display="block";
+    document.getElementById("pdPlayBtn").style.display="none";
+  }
