@@ -1,6 +1,11 @@
 body{
     scroll-behavior: smooth;
     font-family: 'Baloo Tamma 2', cursive;
+    color:#3e3e3ef5;
+}
+
+*{
+    scroll-behavior: smooth;
 }
 
 .pd-main-slider .main-slider .owl-item img {
@@ -34,10 +39,10 @@ body{
 .pd-main-slider .main-slider .owl-item .pd-slid-cont{
     position: absolute;
     z-index: 9;
-    bottom: 20%;
+    bottom: 22%;
     width: 400px;
     margin-left: -200px;
-    left: 40%;
+    left: 34%;
 }
 
 .pd-main-slider .main-slider .owl-item .pd-slid-cont h4{
@@ -55,6 +60,18 @@ body{
     color: #3e3e3ef5;
     font-size:24px;
     padding-left:5px;
+}
+
+.w-w-do-sec{
+    padding:5% 0;
+}
+
+.w-w-do-sec .pd-img-wwd img{
+    width:90%;
+}
+
+.w-w-do-sec .row{
+    align-items: center;
 }
 
 
