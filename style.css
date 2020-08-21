@@ -74,6 +74,20 @@ body{
     align-items: center;
 }
 
+.demo-sec{
+    padding:5% 0;
+}
+.demo-sec .row{
+    align-items: center;
+}
+
+.demo-sec .row video{
+    border-radius: 30px;
+}
+
+:focus {
+    outline: -webkit-focus-ring-color auto 0px;
+}
 
 /* ===== media query ==== */
 @media (min-width:768px){
