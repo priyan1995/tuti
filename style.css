@@ -87,6 +87,15 @@ body{
     transition: 0.5s;
 }
 
+.demo-sec .pd-play .pd-play-border {
+    display: inline-block;
+    border: 2px solid #5c29ff;
+    padding: 30px 26px 27px 49px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+
 :focus {
     outline: -webkit-focus-ring-color auto 0px;
 }
