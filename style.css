@@ -187,10 +187,63 @@ button:focus{
     outline: none;
 }
 
+.pd-cont-us{
+    padding:5% 0;
+    position: relative;
+}
 
+.pd-cont-us .cont-back{
+    position: absolute;
+    left: 3%;
+    top: 4%;
+    width: 50%;
 
+}
 
+.pd-cont-us input,
+.pd-cont-us textarea{
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px 10px;
+    border: 0px solid #b1b1b136;
+    box-shadow: 0px 2px 6px 0px #0000001f;
+}
 
+.pd-cont-us a{
+    display: inline-block;
+    margin-top: 20px;
+    background: #864dce;
+    color: white;
+    padding: 10px 20px 8px;
+    transition: 0.5s;
+}
+
+.pd-cont-us a:hover{
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+.pd-cont-us .pd-cont-form-card{
+    margin: 0px 5%;
+    padding: 50px;
+    background: #f4f4f442;
+    box-shadow: 0px 14px 145px -61px #00000073;
+    border: 5px solid #80808005;
+    position: relative;
+}
+
+.pd-cont-us .pd-cont-form-card::after{
+    content: '';
+    position: absolute;
+    right: -45px;
+    bottom: -25px;
+    width: 100px;
+    height: 185px;
+    background: url(img/cont-form-flow-vas.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
 
 
 
