@@ -245,10 +245,22 @@ button:focus{
     background-size: contain;
 }
 
+.pd-footer{
+    padding: 8% 0 1%;
+}
 
+.pd-footer .footer-bottom-logo{
+    text-align: center;
+    padding: 20px 0;
+}
 
+.pd-footer .footer-bottom-logo img{
+    width:150px;
+}
 
-
+.pd-footer .footer-bottom-logo p{
+    padding: 18px 0;
+}
 
 
 
