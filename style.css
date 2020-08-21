@@ -251,7 +251,7 @@ button:focus{
 
 .pd-footer .footer-bottom-logo{
     text-align: center;
-    padding: 20px 0;
+    padding: 50px 0;
 }
 
 .pd-footer .footer-bottom-logo img{
@@ -259,8 +259,47 @@ button:focus{
 }
 
 .pd-footer .footer-bottom-logo p{
-    padding: 18px 0;
+    padding: 18px 0 0;
+    margin-bottom: 0;
 }
+
+.pd-footer .pd-fo-q-link a{
+    color: inherit;
+    display: block;
+    transition: 0.5s;
+}
+
+.pd-footer .pd-fo-q-link a:hover{
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+.pd-footer .pd-f-cont p{
+    margin-bottom: 2px;
+}
+.pd-footer .pd-subs-us input{
+    background: #fff;
+    padding: 10px 5px;
+    border: 2px solid #dedede;
+    width: 70%;
+    margin-right: 2px;
+}
+.pd-footer .pd-subs-us button{
+    padding: 10px 5px;
+    background: #864dce;
+    color: white;
+    border: 2px solid #864dce;
+    width:28%;
+}
+
+.pd-footer .pd-flex-foot{
+    display:flex;
+}
+
+
+
+
+
 
 
 
